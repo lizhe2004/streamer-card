@@ -16,4 +16,4 @@ WORKDIR /app
 
 EXPOSE 3003
 
-CMD [ "node", "src/index.ts" ]
+CMD [ "ts-node", "src/index.ts" ]
